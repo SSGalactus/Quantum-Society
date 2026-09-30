@@ -39,7 +39,7 @@ window.SITE = {
     text: "We're a community of students, tinkerers and big-question askers exploring quantum physics and quantum computing — through talks, hands-on workshops, hackathons and long conversations about what reality is actually made of.",
     buttons: [
       { text: "Join the society", link: "#join", style: "primary" },
-      { text: "Wehn & where", link: "#info", style: "ghost" }
+      { text: "Details", link: "#info", style: "ghost" }
     ],
     stats: [
       { value: "120+", label: "Members" },
