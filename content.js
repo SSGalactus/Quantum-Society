@@ -29,7 +29,7 @@ window.SITE = {
   },
   seo: {
     title: "Quantum Society — Physics, Computing & Curiosity",
-    description: "The Quantum Society is a community for anyone curious about quantum physics and quantum computing. Talks, workshops, socials and more."
+    description: "Quantum Society is a community for anyone curious about quantum physics and quantum computing. Talks, socials and more that delve deep into the modern breakthroughs in physics and maths."
   },
 
   /* ---------- Top banner ---------- */
@@ -56,7 +56,6 @@ window.SITE = {
     intro: "Quantum mechanics is the most successful theory in science — and the strangest. We started the Quantum Society so anyone, from any background, could explore it together. Whether you're a physicist, a programmer, a philosopher or just fascinated, there's a seat for you.",
     pillars: [
       { icon: "atom",  title: "Learn",   text: "Beginner-friendly talks that build from qubits and superposition to entanglement and quantum algorithms." },
-      { icon: "chip",  title: "Build",   text: "Hands-on workshops writing real quantum circuits with open-source tools, and running them on actual quantum hardware." },
       { icon: "wave",  title: "Discuss", text: "Reading groups and debates on interpretations, the future of quantum tech, and its impact on the world." },
       { icon: "users", title: "Connect", text: "Socials, industry speakers and research visits that connect members with people working in the field." }
     ]
@@ -81,12 +80,9 @@ window.SITE = {
     title: "Meet the committee",
     intro: "The people who keep the society running. Say hello at any event!",
     members: [
-      { name: "Alex Rivera",  role: "President",        bio: "Physics student who can't stop talking about entanglement.", photo: "", link: "" },
-      { name: "Priya Shah",   role: "Vice President",   bio: "Organises our workshops and speaker line-up.",              photo: "", link: "" },
-      { name: "Sam Okafor",   role: "Treasurer",        bio: "Keeps the budget balanced and the pizza flowing.",          photo: "", link: "" },
-      { name: "Mei Tanaka",   role: "Events Officer",   bio: "Plans socials, trips and the legendary end-of-term quiz.",  photo: "", link: "" },
-      { name: "Jordan Lee",   role: "Tech Lead",        bio: "Runs the coding workshops and looks after this website.",   photo: "", link: "" },
-      { name: "Chloe Martin", role: "Outreach Officer", bio: "Connects us with researchers, companies and other clubs.",   photo: "", link: "" }
+      { name: "Shravanth Sadheesh",  role: "President",        bio: "Organiser and leader of Quantum Society.", photo: "", link: "" },
+      { name: "Pranav Nayak",   role: "Helper",   bio: "Helps run the club, from logistics to practical elements.",              photo: "", link: "" },
+      { name: "Tivyan Gajendra",   role: "Visionary",        bio: "Creative inspiraion that has led to Quantum Society being what it is today.",          photo: "", link: "" },
     ]
   },
 
@@ -108,10 +104,9 @@ window.SITE = {
     navLabel: "FAQ",
     title: "Questions, observed",
     items: [
-      { q: "Do I need to study physics to join?", a: "Not at all. Our members study everything from computer science to music. Events are designed to be accessible to complete beginners." },
-      { q: "How much does membership cost?",        a: "Membership is free (or a small yearly fee — update this answer!). Most events are free for members." },
-      { q: "Do I need to be good at maths?",        a: "No. We explain ideas intuitively first, and the more mathematical sessions are always clearly labelled." },
-      { q: "Can I help run the society?",           a: "Yes please! Come to any event and talk to the committee, or email us. We hold elections at the end of each year." }
+      { q: "Do I need to study physics or maths to join?", a: "Not at all. The club is designed to be accessible to complete beginners as well as those already invested in modern technology." },
+      { q: "Do I need to be good at maths?",        a: "No. All ideas are open to discussion, whether that includes teh technology side or thee philosophical implications." },
+      { q: "Can I help run the society?",           a: "Yes please! Come to any event and talk to us, or email us. We hold elections at the end of each year." }
     ]
   },
 
@@ -119,18 +114,12 @@ window.SITE = {
   join: {
     navLabel: "Join",
     title: "Ready to collapse the wavefunction?",
-    text: "Sign up to become a member, get event updates and join the conversation. It takes less than a minute.",
-    button: { text: "Become a member", link: "https://forms.gle/" },
-    email: "hello@quantumsociety.org"
+    text: "Sign up to become a member, attend sessions and have fun learnign about new breakthroughs. It takes less than a minute.",
+    button: null,
+    email: "21SSadheeshS@qerdp.co.uk"
   },
 
   /* ---------- Social links (delete any you don't use) ---------- */
-  socials: [
-    { name: "Instagram", link: "https://instagram.com/" },
-    { name: "Discord",   link: "https://discord.com/" },
-    { name: "LinkedIn",  link: "https://linkedin.com/" },
-    { name: "GitHub",    link: "https://github.com/" }
-  ],
 
   /* ---------- Footer ({year} is replaced automatically) ---------- */
   footer: {
