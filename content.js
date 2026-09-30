@@ -42,9 +42,8 @@ window.SITE = {
       { text: "Details", link: "#info", style: "ghost" }
     ],
     stats: [
-      { value: "120+", label: "Members" },
-      { value: "30+",  label: "Events a year" },
-      { value: "8",    label: "Hands-on workshops" },
+      { value: "30+",  label: "Sessions a year" },
+      { value: "4",    label: "Hands-on workshops" },
       { value: "∞",    label: "Open questions" }
     ]
   },
@@ -57,7 +56,7 @@ window.SITE = {
     pillars: [
       { icon: "atom",  title: "Learn",   text: "Beginner-friendly talks that build from qubits and superposition to entanglement and quantum algorithms." },
       { icon: "wave",  title: "Discuss", text: "Reading groups and debates on interpretations, the future of quantum tech, and its impact on the world." },
-      { icon: "users", title: "Connect", text: "Socials, industry speakers and research visits that connect members with people working in the field." }
+      { icon: "users", title: "Connect", text: "Socials, industry speakers and research that connect members with people working in the field." }
     ]
   },
 
@@ -69,7 +68,7 @@ window.SITE = {
     emptyMessage: "New events are being planned. Check back soon or follow us on social media!",
     items: [
        { icon: "clock", label: "When", value: "Every Monday", detail: "1:00 - 1:30 pm" },
-       { icon: "pin", label: "Where", value: "One of the english rooms, probably", detail: "Exact room will be sent on eQE" },
+       { icon: "pin", label: "Where", value: "One of the maths rooms, probably", detail: "Exact room will be sent on eQE" },
        { icon: "users", label: "Who", value: "Everyone welcome", detail: "Interest is all that is needed" },
        ]
       },
