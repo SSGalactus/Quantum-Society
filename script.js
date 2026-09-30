@@ -130,6 +130,17 @@
     return section("events", e, "Events", html);
   }
 
+   function buildInfo(n) {
+      var cards = list(n.items).map(function (it, i) {
+         return '<article class ="card info-item reveal" style="--d:' + i * 60 + 'ms">' +
+            '<div class ="icon">' + icon(it.icon) + "</div>" +
+            '<p class="info-label">' + esc(it.label) + "</p>" +
+            "<h3>" + esc(it.value) + "</h3>" + 
+            (it.detail ? "<p>" + esc(it.detail) + "</p>" : "") + "</article>";
+      }).join("");
+      return section("info", n, "Info", '<div class="grid grid-4">' + cards + "</div>");
+   }
+   
   function initials(name) {
     return String(name || "?").trim().split(/\s+/).slice(0, 2).map(function (w) { return w.charAt(0); }).join("").toUpperCase();
   }
@@ -190,7 +201,7 @@
   var html = "";
   if (S.hero) html += buildHero(S.hero);
   if (S.about) html += buildAbout(S.about);
-  if (S.events) html += buildEvents(S.events);
+  if (S.info) html += buildInfo(S.info);
   if (S.team) html += buildTeam(S.team);
   if (S.resources) html += buildResources(S.resources);
   if (S.faq) html += buildFaq(S.faq);
