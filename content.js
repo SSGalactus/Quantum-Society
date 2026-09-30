@@ -45,6 +45,7 @@ window.SITE = {
       { value: "30+",  label: "Sessions a year" },
       { value: "4",    label: "Hands-on workshops" },
       { value: "∞",    label: "Open questions" }
+      { value: "∞",    label: "Fun" }
     ]
   },
 
