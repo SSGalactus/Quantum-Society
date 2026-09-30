@@ -313,3 +313,6 @@ p { margin: 0; }
   .stat { padding: 16px; }
   .stat dd { font-size: 1.6rem; }
 }
+
+/* Info section */
+.info-label { color: var(--accent) !important; font-size: .8rem !important; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 6px !important; }
