@@ -114,7 +114,7 @@ window.SITE = {
   join: {
     navLabel: "Join",
     title: "Ready to collapse the wavefunction?",
-    text: "Sign up to become a member, attend sessions and have fun learning about new breakthroughs. It takes less than a minute.",
+    text: "Sign up to become a member, or just turn up on a monday. Attend sessions and have fun learning about new breakthroughs and gain incredible knowledge",
     button: null,
     email: "21SSadheeshS@qerdp.co.uk"
   },
