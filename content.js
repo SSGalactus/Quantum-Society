@@ -36,7 +36,7 @@ window.SITE = {
   hero: {
     eyebrow: "Physics · Computing · Curiosity",
     title: "Where curiosity exists in superposition.",
-    text: "We're a community of students, tinkerers and big-question askers exploring quantum physics and quantum computing — through talks, hands-on workshops, hackathons and long conversations about what reality is actually made of.",
+    text: "We're a community of students, tinkerers and big-question askers exploring quantum physics and quantum computing — through talks, hands-on workshops, and long conversations about what reality is actually made of.",
     buttons: [
       { text: "Join the society", link: "#join", style: "primary" },
       { text: "Details", link: "#info", style: "ghost" }
@@ -65,7 +65,7 @@ window.SITE = {
   info: {
     navLabel: "Info",
     title: "When & where",
-    intro: "Everyone is welcome to every session. Just urn up!",
+    intro: "Everyone is welcome to every session. Just turn up!",
     emptyMessage: "New events are being planned. Check back soon or follow us on social media!",
     items: [
        { icon: "clock", label: "When", value: "Every Monday", detail: "1:00 - 1:30 pm" },
@@ -78,7 +78,7 @@ window.SITE = {
   team: {
     navLabel: "Team",
     title: "Meet the committee",
-    intro: "The people who keep the society running. Say hello at any event!",
+    intro: "The people who keep the society running. Say hello at any session!",
     members: [
       { name: "Shravanth Sadheesh",  role: "President",        bio: "Organiser and leader of Quantum Society.", photo: "", link: "" },
       { name: "Pranav Nayak",   role: "Helper",   bio: "Helps run the club, from logistics to practical elements.",              photo: "", link: "" },
@@ -114,7 +114,7 @@ window.SITE = {
   join: {
     navLabel: "Join",
     title: "Ready to collapse the wavefunction?",
-    text: "Sign up to become a member, attend sessions and have fun learnign about new breakthroughs. It takes less than a minute.",
+    text: "Sign up to become a member, attend sessions and have fun learning about new breakthroughs. It takes less than a minute.",
     button: null,
     email: "21SSadheeshS@qerdp.co.uk"
   },
