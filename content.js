@@ -39,7 +39,7 @@ window.SITE = {
     text: "We're a community of students, tinkerers and big-question askers exploring quantum physics and quantum computing — through talks, hands-on workshops, hackathons and long conversations about what reality is actually made of.",
     buttons: [
       { text: "Join the society", link: "#join", style: "primary" },
-      { text: "See upcoming events", link: "#events", style: "ghost" }
+      { text: "Wehn & where", link: "#info", style: "ghost" }
     ],
     stats: [
       { value: "120+", label: "Members" },
@@ -62,56 +62,19 @@ window.SITE = {
     ]
   },
 
-  /* ---------- Events ---------- */
-  events: {
-    navLabel: "Events",
-    title: "What's happening",
-    intro: "Everyone is welcome at every event — members and first-timers alike.",
+  /* ---------- Info ---------- */
+  info: {
+    navLabel: "Info",
+    title: "When & where",
+    intro: "Everyone is welcome to every session. Just urn up!",
     emptyMessage: "New events are being planned. Check back soon or follow us on social media!",
     items: [
-      {
-        date: "2026-10-14",
-        time: "18:30",
-        title: "Welcome Night: What on Earth is a Qubit?",
-        location: "Lecture Theatre 2",
-        description: "Our kick-off event. A friendly, no-maths introduction to the quantum world, followed by pizza and meeting the committee.",
-        link: ""
+       { icon: "clock", label: "When", value: "Every Monday", detail: "1:00 - 1:30 pm" },
+       { icon: "pin", label: "Where", value: "One of the english rooms, probably", detail: "Exact room will be sent on eQE" },
+       { icon: "users", label: "Who", value: "Everyone welcome", detail: "Interest is all that is needed" },
+       ]
       },
-      {
-        date: "2026-10-28",
-        time: "18:00",
-        title: "Workshop: Your First Quantum Circuit",
-        location: "Computer Lab B",
-        description: "Bring a laptop. We'll build and run simple quantum circuits step by step — no prior coding experience needed.",
-        link: ""
-      },
-      {
-        date: "2026-11-11",
-        time: "19:00",
-        title: "Debate Night: Many Worlds vs Copenhagen",
-        location: "Student Union, Room 3",
-        description: "Two teams, one universe (or many?). Come argue about the nature of reality — snacks provided.",
-        link: ""
-      },
-      {
-        date: "2026-11-25",
-        time: "18:30",
-        title: "Guest Talk: Quantum Computing in Industry",
-        location: "Lecture Theatre 1",
-        description: "A guest speaker from industry on where quantum computing really is today, and what careers in the field look like.",
-        link: ""
-      },
-      {
-        date: "2026-12-09",
-        time: "19:00",
-        title: "End-of-Term Social: Schrödinger's Quiz",
-        location: "The Common Room",
-        description: "A physics-flavoured pub quiz. The answers are both right and wrong until you mark them.",
-        link: ""
-      }
-    ]
-  },
-
+  
   /* ---------- Team / committee ---------- */
   team: {
     navLabel: "Team",
