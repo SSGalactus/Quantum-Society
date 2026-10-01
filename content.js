@@ -115,7 +115,7 @@ window.SITE = {
     navLabel: "Join",
     title: "Ready to collapse the wavefunction?",
     text: "Sign up to become a member, or just turn up on a Monday. Attend sessions and have fun learning about new breakthroughs and gain incredible knowledge.",
-    button: null,
+    button: "Become a member",
     email: "21SSadheeshS@qerdp.co.uk"
   },
 
